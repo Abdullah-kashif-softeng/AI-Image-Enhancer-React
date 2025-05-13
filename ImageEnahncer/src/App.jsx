@@ -7,7 +7,7 @@ const App2 = () => {
     const [previewImage,setPreviewImage]=useState(null);
 
     const Base_URL="https://techhk.aoscdn.com/";
-    const APIKEY="wxe4s99dacelq7vxj";
+    const APIKEY="Hidden";
 
     const imageHandler=async(originalImage)=>{
         const enhancedImageURL=await imageApiHandler(originalImage);
